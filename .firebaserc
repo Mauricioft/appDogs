@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "production": "app-dogs",
+    "default": "app-dogs"
+  }
+}
