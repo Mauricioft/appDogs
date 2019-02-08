@@ -14,7 +14,9 @@
       <v-flex
         v-for="(item, index) in sortedDogs"
         :key="index"
-        xs4
+        xs6
+        sm6
+        md4
         d-flex
       >
         <pm-dialog
@@ -36,12 +38,14 @@
       </v-flex>
       <v-flex
         xs12
+        sm12
+        md12
         class="text-xs-center"
       >
         <v-pagination
           v-model="pagination.page"
           :length="pages"
-          total-visible="7"
+          total-visible="5"
         />
       </v-flex>
     </v-layout>

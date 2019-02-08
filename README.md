@@ -1,4 +1,5 @@
 # app-dogs
+Production url https://app-dogs.firebaseapp.com/home
 
 ## Project setup
 ```
